@@ -18,7 +18,7 @@ public class LoginTest extends BaseClass {
 		
 		loginPage.logintoDemo(excel.getStringData("Login", 0, 0), excel.getStringData("Login", 0, 1));
 		
-		logger.pass("Login Success ");
+		logger.pass("Login Success");
 	}
 	
 	
